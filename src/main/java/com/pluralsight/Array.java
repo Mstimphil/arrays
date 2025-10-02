@@ -6,8 +6,19 @@ public class Array {
         int[] newArrayOfNumbers = new int [5];
         int [] listOfNumbers = {55,67,123,567,12,32,19};
 
+        System.out.println(listOfNumbers[1]);
+
+        System.out.println("==============================");
+
         for (int i = 0; i < newArrayOfNumbers.length; i++){
             System.out.println(listOfNumbers[i] + "");
+        }
+        System.out.println();
+
+        System.out.println("=================================");
+
+        for (int i = 0; i < newArrayOfNumbers.length; i++){
+            System.out.println(newArrayOfNumbers[i] + "");
         }
     }
 }
